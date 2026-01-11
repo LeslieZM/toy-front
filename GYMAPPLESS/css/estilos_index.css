@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body {
+   background-color: #dab739; 
+}
+/*Estilo de encabezado*/
+ .encabezado{
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #dab739;
+    float: left;
+    width: 100%;
+}
+.encabezado h1{
+   font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+   font-size: 450%;
+   text-align:center; 
+   color: #000000; 
+}
+.encabezado img{
+   float: left;
+   width: 10%;
+}
+.barra a{
+  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+   font-size: 170%;
+   text-align:center; 
+   margin-left: 10%;
+   text-decoration:none;
+   color: #f5f8fd;
+   font-weight :bold;
+}
+.fondo-barra {
+   background-color: #151313;
+}
+
+.barra a:hover{
+background:#dab739;
+}
+/*Estilos contenido/Banner*/
+ .banner img{
+    float: left;
+    width: 100%;
+}
+ /*Galería servicios*/
+
+   .fila{
+      max-width: 100%;
+      margin-left: 3%;
+      margin-right: 3%;
+   
+}
+   .columna{
+      margin:auto;
+      padding: 0.3%;
+      float:left;
+      width: 22.9999%;
+   }
+   .galeria{
+      border: 2px solid #ffffff;
+      max-width: 100%;
+      padding: 5%;
+      background-color: #e69040;
+   }
+   .galeria img{
+      width: 100%;
+      height: auto;
+
+   }
+   .galeria a :hover{
+      border: 20px solid #ffffff;
+      background: #070707;
+
+   }
+
+
+/*Pie de pagina*/
+.footer table  {
+   width:100%;;
+   height:140px;
+   font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+   font-size: 100%;
+   color:#040404;
+   background-color:#dab739;
+}
